@@ -1,0 +1,6 @@
+span{
+  font-size: 100%;
+}
+span:not(:last-child){
+  margin-right: 10px;
+}

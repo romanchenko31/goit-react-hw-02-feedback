@@ -1,0 +1,15 @@
+button{
+  padding: 20px;
+  background: rgba(177, 177, 216, 0.483);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transform: scale(1);
+  transition-duration: 500ms;
+}
+button:focus{
+  transform: scale(1.2);
+}
+button:not(:last-child){
+  margin-right: 20px;
+}
